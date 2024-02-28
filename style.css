@@ -34,8 +34,11 @@ html{
 span.filter-item{
     color: #fff;
 }
-p.title-text, h2.titleText{
+p.title-text{
     color: #fff;
+}
+h2.titleText{
+    color: #FA770E;
 }
 
 li{
@@ -171,7 +174,7 @@ header.shadow .logo{
     min-height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 .imgBx img{
     border-top-right-radius: 70px;
@@ -205,6 +208,7 @@ header.shadow .logo{
     align-items: center;
     column-gap: 1.5rem;
     margin-top: 2rem !important;
+    margin-bottom: 2rem;
 }
 
 .filter-item{
@@ -265,6 +269,13 @@ header.shadow .logo{
     text-transform: uppercase;
     margin-top: 4px;
     font-weight: 400;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-date span{
+    color: #FA770E;
+    font-size: smaller;
+    margin-right: 15px;
 }
 
 .post-description{
