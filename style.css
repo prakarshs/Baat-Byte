@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /* root values */
 :root{
     --container-color: #1a1e21;
@@ -25,8 +26,10 @@ a{
     text-decoration: none;
     
 }
-body{
+html{
     background-color: #121212;
+    width: 100%;
+    height: 100%;
 }
 span.filter-item{
     color: #fff;
@@ -166,10 +169,16 @@ header.shadow .logo{
     min-width: 50%;
     width: 50%;
     min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .imgBx img{
     border-top-right-radius: 70px;
     border-bottom-left-radius: 110px;
+    height: 450px;
+    width: 450px;
+
 }
 
 .btn2{
@@ -533,9 +542,6 @@ footer p{
         font-size: 1.4rem;
     }
 
-    .header-img{
-        height: 240px;
-    }
 
     .post-header{
         height: 335px;
