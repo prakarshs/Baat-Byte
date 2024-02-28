@@ -167,6 +167,10 @@ header.shadow .logo{
     width: 50%;
     min-height: 500px;
 }
+.imgBx img{
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 110px;
+}
 
 .btn2{
     position: relative;
